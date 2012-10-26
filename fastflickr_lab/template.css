@@ -1,0 +1,21 @@
+.photo{
+	float: left;
+	width: 150px
+	height: 10 px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+}
+
+
+
+
+/*http://farm9.static.flickr.com/8320/8033299388_13248566d7_m.jpg
+http://farm9.static.flickr.com/8437/7952718868_da9c0b2056_m.jpg
+http://farm9.static.flickr.com/8311/7917522908_872d3b6ae1_m.jpg
+http://farm9.static.flickr.com/8315/7917510456_47d3cffae4_m.jpg
+http://farm9.static.flickr.com/8311/7917522908_872d3b6ae1_m.jpg*/
