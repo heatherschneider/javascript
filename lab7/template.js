@@ -7,11 +7,6 @@ $('#addcolors').click(add_colors);
 $('#boxes').on('hover', '.box', make_pretty);
 });
 
-function make_pretty()
-{
-	$(this).toggleClass('alert');
-}
-
 function add_colors()
 {
 var count = $('#count').val();

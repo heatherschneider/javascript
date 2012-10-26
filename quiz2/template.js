@@ -1,22 +1,17 @@
 $(function(){
 
 
-}
-function check(evt){
-
-var current;
-
-evt = evt || window.event;
-var target = evt.target || evt.srcElement;
-current = target;
-
-if(current.className = 'flipped') return:
-
-current.className = 'flipped';
+function add_boxes()
+{
+var count = $('#count').val();
+count = parseInt(count);
+{
+	var box = $('<div>');
+	box.text(i);
+	box.addClass('box');
+	$('#boxes').append(box);
 }
 
 
-window.onload = function() {
-	var element = document.getElementById('pieces');
-	element.onclick = check;
+
 }

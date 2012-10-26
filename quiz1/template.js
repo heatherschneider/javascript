@@ -1,22 +1,12 @@
 $(function(){
 
 
-}
-function check(evt){
 
-var current;
+var a = parseInt(a);
+var b = parseInt(b);
 
-evt = evt || window.event;
-var target = evt.target || evt.srcElement;
-current = target;
-
-if(current.className = 'flipped') return:
-
-current.className = 'flipped';
+function add(a + b)
+{
+	return a + b;
 }
 
-
-window.onload = function() {
-	var element = document.getElementById('pieces');
-	element.onclick = check;
-}
